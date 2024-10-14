@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Task Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Task 01: Counter -->
+    <section id="task01">
+        <h1>Task 01: Counter Example</h1>
+        <button id="incrementButton">Increment Counter</button>
+        <p>Counter: <span class="counter" id="counter">0</span></p>
+        <hr>
+    </section>
+
+    <!-- Task 02: Key Press Info -->
+    <section id="task02">
+        <h1>Task 02: Last Key Pressed Info</h1>
+        <p>Key Code: <span id="keyCode">Press a key</span></p>
+        <p>Key Value: <span id="keyValue">Press a key</span></p>
+        <hr>
+    </section>
+
+    <!-- Task 03: Form Validation -->
+    <section id="task03">
+        <h1>Task 03: Login Form</h1>
+        <form id="loginForm">
+            <label for="username">Username (at least 5 characters):</label>
+            <input type="text" id="username" name="username"><br><br>
+
+            <label for="password">Password (at least 8 characters):</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <button type="submit">Submit</button>
+            <p class="error" id="errorMessage"></p>
+        </form>
+    </section>
+
+    <!-- Include external JavaScript file -->
+    <script src="scripts.js"></script>
+
+</body>
+</html>
